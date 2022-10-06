@@ -1,0 +1,21 @@
+/*FUNDO DA TELA*/
+body {
+    
+    background-image: url(../bg.jpg);
+    /*background-color: black;*/
+    
+}
+/*COR DO NOME PRINCIPAL*/
+h1 {
+    color: #d60b0b;
+}
+/*COR DA BARRA DE NAVEGAÇÃO*/
+.cor1 {
+    background-color:rgb(143, 10, 10);
+}
+h1{
+ -webkit-text-stroke: white 1px; /*Cria contorno/borda ao titulo h1*/
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Gotham, sans-serif;
+
+}
+

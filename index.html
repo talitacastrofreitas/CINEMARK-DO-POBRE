@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--REFERÊNCIA BOOSTRAP - CSS-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!--REFERÊNCIA BOOTSTRAP - JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<!--CAMINHO CSS-->
+  <link rel="stylesheet" href="css/newproject.css">
+  <!--NOME DA PÁGINA WEB (DOCUMENTO)-->
+  <title>CINEMARK</title>
+</head>
+<body>
+  <!--NOME PRINCIPAL-->
+  <div class="nome text-center">
+    <h1 src="../Imagens/bg.jpg">CINEMARK DO POBRE</h1>
+  </div>
+
+<!--BARRA DE NAVEGAÇÃO (BOOTSTRAP)-->
+<nav class="navbar navbar-expand-lg navbar-light cor1">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Cinemark do pobre</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Filmes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Séries</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Animações</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+            Opções
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+            <li><a class="dropdown-item" href="#">Romance</a></li>
+            <li><a class="dropdown-item" href="#">Ação</a></li>
+            <li><a class="dropdown-item" href="#">Drama</a></li>
+            <li><a class="dropdown-item" href="#">Terror</a></li>
+            <li><a class="dropdown-item" href="#anime">Anime</a></li>
+            <li><a class="dropdown-item" href="#">Comédia</a></li>
+            <li><a class="dropdown-item" href="#">Ficção Cientifica</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Minha Lista</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="a" tobindex="-1" aria-disabled="true">Planos</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!--CAROUSEL-->
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../Imagens/1_carou.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../Imagens/2_carou.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../Imagens/3_carou.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div>
+
+<!--SUBTITULO-->
+  <div class="container text-light">
+    <h2>FILMES</h2>
+  </div>
+
+<!--IMAGENS DA SEÇÃO DE FILMES-->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <img src="../Imagens/10_filme.jpeg" class="img-fluid" alt="...">
+      </div>
+      <div class="col-md-3">
+        <img src="../Imagens/9_filme.jpg" class="img-fluid" alt="..." >
+      </div>
+      <div class="col-md-3">
+        <img src="../Imagens/3_filme.jpg" class="img-fluid" alt="..." >
+      </div>
+      <div class="col-md-3">
+        <img src="../Imagens/11_filme.jpg" class="img-fluid" alt="..." >
+      </div>
+    </div>
+
+<!--IMAGENS DA SEÇÃO DE SÉRIES-->
+  
+    </div>
+    <br><br>
+    <div class="container text-light">
+      <h2>SÉRIES</h2>
+    </div>
+    
+<div class="container">
+  
+    <div class="row">
+<div class="col-md-3">
+      <img src="../Imagens/0_serie.jpg" class="img-fluid" alt="..." >
+    </div>
+    <div class="col-md-3">
+      <img src="../Imagens/1_serie.jpg" class="img-fluid" alt="..." >
+    </div>
+    <div class="col-md-3">
+      <img src="../Imagens/2_serie.jpg" class="img-fluid" alt="..." >
+    </div>
+    <div class="col-md-3">
+      <img src="../Imagens/12_serie.jpg" class="img-fluid" alt="..." >
+    </div>
+
+    </div>
+</div>
+
+<br><br>
+<!--IMAGENS DA SEÇÃO DE ANIMAÇÕES-->
+    <div class="container text-light" id="anime">
+      <h2>ANIMAÇÕES</h2>
+    </div>
+    
+<div class="container">
+  
+    <div class="row">
+<div class="col-md-3">
+      <img src="../Imagens/1_animacao.jpg" class="img-fluid" alt="..." >
+    </div>
+    <div class="col-md-3">
+      <img src="../Imagens/2_animacao.jpg" class="img-fluid" alt="..." >
+    </div>
+    <div class="col-md-3">
+      <img src="../Imagens/3_animacao.jpg" class="img-fluid" alt="..." >
+    </div>
+    <div class="col-md-3">
+      <img src="../Imagens/4_animacao.jpg" class="img-fluid" alt="..." >
+    </div>
+
+  </div>
+</body>
+</html>
